@@ -1,0 +1,15 @@
+---
+title: "Example"
+format: pdf
+filters:
+  - "no-echo-when-format"
+---
+
+```{r}
+#| no-echo-when-format: pdf
+
+hist(rnorm(10))
+```
+
+
+
