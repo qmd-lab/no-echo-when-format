@@ -6,6 +6,13 @@ filters:
 ---
 
 ```{r}
+#| echo: true
+
+plot(rnorm(10))
+```
+
+```{r}
+#| echo: true
 #| no-echo-when-format: pdf
 
 hist(rnorm(10))
